@@ -12,11 +12,11 @@ public class Cliente {
         criarFrete(resumoRodoviario);
 
         Resumo resumoMaritimo = new ResumoMaritimo();
-        System.out.println("Frete Rodoviário...");
+        System.out.println("Frete Maritimo...");
         criarFrete(resumoMaritimo);
 
         Resumo resumoAereo = new ResumoAereo();
-        System.out.println("Frete Rodoviário...");
+        System.out.println("Frete Aereo...");
         criarFrete(resumoAereo);
     }
 }
